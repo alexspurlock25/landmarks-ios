@@ -11,6 +11,11 @@ import CoreData
 struct ContentView: View {
     var body: some View {
         Text("Hello, World!")
+            .font(.largeTitle)
+            .foregroundColor(.orange)
+            .multilineTextAlignment(.center)
+            .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+            
     }
 }
 
