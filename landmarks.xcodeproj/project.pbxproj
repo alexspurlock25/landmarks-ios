@@ -17,6 +17,7 @@
 		D905D6D1287B56ED004C2B2B /* landmarksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D905D6D0287B56ED004C2B2B /* landmarksUITests.swift */; };
 		D905D6D3287B56ED004C2B2B /* landmarksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D905D6D2287B56ED004C2B2B /* landmarksUITestsLaunchTests.swift */; };
 		D905D6E0287B5C2D004C2B2B /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D905D6DF287B5C2D004C2B2B /* CircleImage.swift */; };
+		D905D6E2287B5E13004C2B2B /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D905D6E1287B5E13004C2B2B /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		D905D6D0287B56ED004C2B2B /* landmarksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = landmarksUITests.swift; sourceTree = "<group>"; };
 		D905D6D2287B56ED004C2B2B /* landmarksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = landmarksUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D905D6DF287B5C2D004C2B2B /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		D905D6E1287B5E13004C2B2B /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				D905D6B0287B56EB004C2B2B /* landmarksApp.swift */,
 				D905D6B2287B56EB004C2B2B /* ContentView.swift */,
 				D905D6DF287B5C2D004C2B2B /* CircleImage.swift */,
+				D905D6E1287B5E13004C2B2B /* MapView.swift */,
 				D905D6B4287B56ED004C2B2B /* Assets.xcassets */,
 				D905D6B9287B56ED004C2B2B /* Persistence.swift */,
 				D905D6BB287B56ED004C2B2B /* landmarks.xcdatamodeld */,
@@ -267,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D905D6BA287B56ED004C2B2B /* Persistence.swift in Sources */,
+				D905D6E2287B5E13004C2B2B /* MapView.swift in Sources */,
 				D905D6B3287B56EB004C2B2B /* ContentView.swift in Sources */,
 				D905D6B1287B56EB004C2B2B /* landmarksApp.swift in Sources */,
 				D905D6BD287B56ED004C2B2B /* landmarks.xcdatamodeld in Sources */,
