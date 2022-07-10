@@ -10,11 +10,18 @@ import CoreData
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
-            .font(.largeTitle)
-            .foregroundColor(.orange)
-            .multilineTextAlignment(.center)
-            .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+        VStack(alignment: .leading) {
+            Text("Turtle Rock!")
+                .font(.title)
+            HStack {
+                Text("Joshua Tree National Park")
+                    .font(.subheadline)
+                Spacer()
+                Text("California")
+                    .font(.subheadline)
+            }
+        }
+        .padding()
             
     }
 }
