@@ -43,6 +43,7 @@
 		D91174A1287CB6920049D796 /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91174A0287CB6920049D796 /* ProfileHost.swift */; };
 		D91174A3287CB7AB0049D796 /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91174A2287CB7AB0049D796 /* ProfileSummary.swift */; };
 		D91174A5287CBB7E0049D796 /* HikeBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91174A4287CBB7E0049D796 /* HikeBadge.swift */; };
+		D9FDBD76287F628D00833F0E /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FDBD75287F628D00833F0E /* ProfileEditor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +103,7 @@
 		D91174A0287CB6920049D796 /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
 		D91174A2287CB7AB0049D796 /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
 		D91174A4287CBB7E0049D796 /* HikeBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeBadge.swift; sourceTree = "<group>"; };
+		D9FDBD75287F628D00833F0E /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -282,6 +284,7 @@
 			children = (
 				D91174A0287CB6920049D796 /* ProfileHost.swift */,
 				D91174A2287CB7AB0049D796 /* ProfileSummary.swift */,
+				D9FDBD75287F628D00833F0E /* ProfileEditor.swift */,
 			);
 			path = Profiles;
 			sourceTree = "<group>";
@@ -420,6 +423,7 @@
 			files = (
 				D905D6E8287B6226004C2B2B /* Landmark.swift in Sources */,
 				D905D709287BBE8D004C2B2B /* Badge.swift in Sources */,
+				D9FDBD76287F628D00833F0E /* ProfileEditor.swift in Sources */,
 				D91174A3287CB7AB0049D796 /* ProfileSummary.swift in Sources */,
 				D905D6BA287B56ED004C2B2B /* Persistence.swift in Sources */,
 				D911749E287CB5A90049D796 /* Profile.swift in Sources */,
