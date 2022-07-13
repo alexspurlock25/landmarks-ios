@@ -1,2 +1,2 @@
 # landmarks-ios
-SwiftUI Tutorials - Creating and Combining Views
+SwiftUI Tutorials
