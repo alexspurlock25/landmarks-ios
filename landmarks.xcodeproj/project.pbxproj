@@ -43,7 +43,31 @@
 		D91174A1287CB6920049D796 /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91174A0287CB6920049D796 /* ProfileHost.swift */; };
 		D91174A3287CB7AB0049D796 /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91174A2287CB7AB0049D796 /* ProfileSummary.swift */; };
 		D91174A5287CBB7E0049D796 /* HikeBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91174A4287CBB7E0049D796 /* HikeBadge.swift */; };
+		D98B1997287FB8E9002840A9 /* LandmarkCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98B1996287FB8E9002840A9 /* LandmarkCommands.swift */; };
+		D98B1998287FB8E9002840A9 /* LandmarkCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98B1996287FB8E9002840A9 /* LandmarkCommands.swift */; };
 		D9FDBD76287F628D00833F0E /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FDBD75287F628D00833F0E /* ProfileEditor.swift */; };
+		D9FDBD80287F69F700833F0E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FDBD7F287F69F700833F0E /* ContentView.swift */; };
+		D9FDBD82287F69F800833F0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9FDBD81287F69F800833F0E /* Assets.xcassets */; };
+		D9FDBD85287F69F800833F0E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9FDBD84287F69F800833F0E /* Preview Assets.xcassets */; };
+		D9FDBD87287F69F800833F0E /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FDBD86287F69F800833F0E /* Persistence.swift */; };
+		D9FDBD8A287F69F800833F0E /* MacLandmarks.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D9FDBD88287F69F800833F0E /* MacLandmarks.xcdatamodeld */; };
+		D9FDBD95287F69F800833F0E /* MacLandmarksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FDBD94287F69F800833F0E /* MacLandmarksTests.swift */; };
+		D9FDBD9F287F69F800833F0E /* MacLandmarksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FDBD9E287F69F800833F0E /* MacLandmarksUITests.swift */; };
+		D9FDBDA1287F69F800833F0E /* MacLandmarksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FDBDA0287F69F800833F0E /* MacLandmarksUITestsLaunchTests.swift */; };
+		D9FDBDAB287F6B6B00833F0E /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D905D6FC287BA5B2004C2B2B /* FavoriteButton.swift */; };
+		D9FDBDAC287F6B6B00833F0E /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D905D6F2287B66DD004C2B2B /* LandmarkRow.swift */; };
+		D9FDBDAD287F6B6B00833F0E /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D911749D287CB5A90049D796 /* Profile.swift */; };
+		D9FDBDAE287F6B6B00833F0E /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = D905D6E7287B6226004C2B2B /* Landmark.swift */; };
+		D9FDBDAF287F6B6B00833F0E /* landmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D905D6B0287B56EB004C2B2B /* landmarksApp.swift */; };
+		D9FDBDB0287F6B6B00833F0E /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D905D6DF287B5C2D004C2B2B /* CircleImage.swift */; };
+		D9FDBDB1287F6B6B00833F0E /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = D905D6F6287B6929004C2B2B /* landmarkData.json */; };
+		D9FDBDB2287F6B6B00833F0E /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = D905D70B287BBF62004C2B2B /* hikeData.json */; };
+		D9FDBDB3287F6B6B00833F0E /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D905D6E9287B6405004C2B2B /* ModelData.swift */; };
+		D9FDBDB4287F6B6B00833F0E /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D905D6E1287B5E13004C2B2B /* MapView.swift */; };
+		D9FDBDB5287F6B6B00833F0E /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = D905D70D287BBF80004C2B2B /* Hike.swift */; };
+		D9FDBDB6287F6B6B00833F0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D905D6B4287B56ED004C2B2B /* Assets.xcassets */; };
+		D9FDBDB7287F6B6B00833F0E /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D905D6F8287B6A7E004C2B2B /* LandmarkList.swift */; };
+		D9FDBDB9287F6D0B00833F0E /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FDBDB8287F6D0B00833F0E /* LandmarkDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +84,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = D905D6AC287B56EB004C2B2B;
 			remoteInfo = landmarks;
+		};
+		D9FDBD91287F69F800833F0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D905D6A5287B56EB004C2B2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9FDBD7A287F69F700833F0E;
+			remoteInfo = MacLandmarks;
+		};
+		D9FDBD9B287F69F800833F0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D905D6A5287B56EB004C2B2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9FDBD7A287F69F700833F0E;
+			remoteInfo = MacLandmarks;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -103,7 +141,21 @@
 		D91174A0287CB6920049D796 /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
 		D91174A2287CB7AB0049D796 /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
 		D91174A4287CBB7E0049D796 /* HikeBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeBadge.swift; sourceTree = "<group>"; };
+		D98B1996287FB8E9002840A9 /* LandmarkCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkCommands.swift; sourceTree = "<group>"; };
 		D9FDBD75287F628D00833F0E /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
+		D9FDBD7B287F69F700833F0E /* MacLandmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacLandmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9FDBD7F287F69F700833F0E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D9FDBD81287F69F800833F0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9FDBD84287F69F800833F0E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D9FDBD86287F69F800833F0E /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		D9FDBD89287F69F800833F0E /* MacLandmarks.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MacLandmarks.xcdatamodel; sourceTree = "<group>"; };
+		D9FDBD8B287F69F800833F0E /* MacLandmarks.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacLandmarks.entitlements; sourceTree = "<group>"; };
+		D9FDBD90287F69F800833F0E /* MacLandmarksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacLandmarksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9FDBD94287F69F800833F0E /* MacLandmarksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacLandmarksTests.swift; sourceTree = "<group>"; };
+		D9FDBD9A287F69F800833F0E /* MacLandmarksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacLandmarksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9FDBD9E287F69F800833F0E /* MacLandmarksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacLandmarksUITests.swift; sourceTree = "<group>"; };
+		D9FDBDA0287F69F800833F0E /* MacLandmarksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacLandmarksUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D9FDBDB8287F6D0B00833F0E /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +180,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D9FDBD78287F69F700833F0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9FDBD8D287F69F800833F0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9FDBD97287F69F800833F0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -137,6 +210,9 @@
 				D905D6AF287B56EB004C2B2B /* landmarks */,
 				D905D6C5287B56ED004C2B2B /* landmarksTests */,
 				D905D6CF287B56ED004C2B2B /* landmarksUITests */,
+				D9FDBD7C287F69F700833F0E /* MacLandmarks */,
+				D9FDBD93287F69F800833F0E /* MacLandmarksTests */,
+				D9FDBD9D287F69F800833F0E /* MacLandmarksUITests */,
 				D905D6AE287B56EB004C2B2B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -147,6 +223,9 @@
 				D905D6AD287B56EB004C2B2B /* landmarks.app */,
 				D905D6C2287B56ED004C2B2B /* landmarksTests.xctest */,
 				D905D6CC287B56ED004C2B2B /* landmarksUITests.xctest */,
+				D9FDBD7B287F69F700833F0E /* MacLandmarks.app */,
+				D9FDBD90287F69F800833F0E /* MacLandmarksTests.xctest */,
+				D9FDBD9A287F69F800833F0E /* MacLandmarksUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -241,6 +320,7 @@
 				D905D6F2287B66DD004C2B2B /* LandmarkRow.swift */,
 				D905D6F8287B6A7E004C2B2B /* LandmarkList.swift */,
 				D905D6FA287B7136004C2B2B /* LandmarkDetail.swift */,
+				D98B1996287FB8E9002840A9 /* LandmarkCommands.swift */,
 			);
 			path = Landmarks;
 			sourceTree = "<group>";
@@ -287,6 +367,45 @@
 				D9FDBD75287F628D00833F0E /* ProfileEditor.swift */,
 			);
 			path = Profiles;
+			sourceTree = "<group>";
+		};
+		D9FDBD7C287F69F700833F0E /* MacLandmarks */ = {
+			isa = PBXGroup;
+			children = (
+				D9FDBD7F287F69F700833F0E /* ContentView.swift */,
+				D9FDBD81287F69F800833F0E /* Assets.xcassets */,
+				D9FDBD86287F69F800833F0E /* Persistence.swift */,
+				D9FDBD8B287F69F800833F0E /* MacLandmarks.entitlements */,
+				D9FDBD88287F69F800833F0E /* MacLandmarks.xcdatamodeld */,
+				D9FDBD83287F69F800833F0E /* Preview Content */,
+				D9FDBDB8287F6D0B00833F0E /* LandmarkDetail.swift */,
+			);
+			path = MacLandmarks;
+			sourceTree = "<group>";
+		};
+		D9FDBD83287F69F800833F0E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D9FDBD84287F69F800833F0E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D9FDBD93287F69F800833F0E /* MacLandmarksTests */ = {
+			isa = PBXGroup;
+			children = (
+				D9FDBD94287F69F800833F0E /* MacLandmarksTests.swift */,
+			);
+			path = MacLandmarksTests;
+			sourceTree = "<group>";
+		};
+		D9FDBD9D287F69F800833F0E /* MacLandmarksUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D9FDBD9E287F69F800833F0E /* MacLandmarksUITests.swift */,
+				D9FDBDA0287F69F800833F0E /* MacLandmarksUITestsLaunchTests.swift */,
+			);
+			path = MacLandmarksUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -345,6 +464,59 @@
 			productReference = D905D6CC287B56ED004C2B2B /* landmarksUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		D9FDBD7A287F69F700833F0E /* MacLandmarks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9FDBDA2287F69F800833F0E /* Build configuration list for PBXNativeTarget "MacLandmarks" */;
+			buildPhases = (
+				D9FDBD77287F69F700833F0E /* Sources */,
+				D9FDBD78287F69F700833F0E /* Frameworks */,
+				D9FDBD79287F69F700833F0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacLandmarks;
+			productName = MacLandmarks;
+			productReference = D9FDBD7B287F69F700833F0E /* MacLandmarks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D9FDBD8F287F69F800833F0E /* MacLandmarksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9FDBDA5287F69F800833F0E /* Build configuration list for PBXNativeTarget "MacLandmarksTests" */;
+			buildPhases = (
+				D9FDBD8C287F69F800833F0E /* Sources */,
+				D9FDBD8D287F69F800833F0E /* Frameworks */,
+				D9FDBD8E287F69F800833F0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9FDBD92287F69F800833F0E /* PBXTargetDependency */,
+			);
+			name = MacLandmarksTests;
+			productName = MacLandmarksTests;
+			productReference = D9FDBD90287F69F800833F0E /* MacLandmarksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D9FDBD99287F69F800833F0E /* MacLandmarksUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9FDBDA8287F69F800833F0E /* Build configuration list for PBXNativeTarget "MacLandmarksUITests" */;
+			buildPhases = (
+				D9FDBD96287F69F800833F0E /* Sources */,
+				D9FDBD97287F69F800833F0E /* Frameworks */,
+				D9FDBD98287F69F800833F0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9FDBD9C287F69F800833F0E /* PBXTargetDependency */,
+			);
+			name = MacLandmarksUITests;
+			productName = MacLandmarksUITests;
+			productReference = D9FDBD9A287F69F800833F0E /* MacLandmarksUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -366,6 +538,17 @@
 						CreatedOnToolsVersion = 13.4.1;
 						TestTargetID = D905D6AC287B56EB004C2B2B;
 					};
+					D9FDBD7A287F69F700833F0E = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					D9FDBD8F287F69F800833F0E = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = D9FDBD7A287F69F700833F0E;
+					};
+					D9FDBD99287F69F800833F0E = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = D9FDBD7A287F69F700833F0E;
+					};
 				};
 			};
 			buildConfigurationList = D905D6A8287B56EB004C2B2B /* Build configuration list for PBXProject "landmarks" */;
@@ -384,6 +567,9 @@
 				D905D6AC287B56EB004C2B2B /* landmarks */,
 				D905D6C1287B56ED004C2B2B /* landmarksTests */,
 				D905D6CB287B56ED004C2B2B /* landmarksUITests */,
+				D9FDBD7A287F69F700833F0E /* MacLandmarks */,
+				D9FDBD8F287F69F800833F0E /* MacLandmarksTests */,
+				D9FDBD99287F69F800833F0E /* MacLandmarksUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -414,6 +600,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D9FDBD79287F69F700833F0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9FDBDB2287F6B6B00833F0E /* hikeData.json in Resources */,
+				D9FDBD85287F69F800833F0E /* Preview Assets.xcassets in Resources */,
+				D9FDBD82287F69F800833F0E /* Assets.xcassets in Resources */,
+				D9FDBDB1287F6B6B00833F0E /* landmarkData.json in Resources */,
+				D9FDBDB6287F6B6B00833F0E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9FDBD8E287F69F800833F0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9FDBD98287F69F800833F0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -426,6 +638,7 @@
 				D9FDBD76287F628D00833F0E /* ProfileEditor.swift in Sources */,
 				D91174A3287CB7AB0049D796 /* ProfileSummary.swift in Sources */,
 				D905D6BA287B56ED004C2B2B /* Persistence.swift in Sources */,
+				D98B1997287FB8E9002840A9 /* LandmarkCommands.swift in Sources */,
 				D911749E287CB5A90049D796 /* Profile.swift in Sources */,
 				D905D6E2287B5E13004C2B2B /* MapView.swift in Sources */,
 				D905D6FD287BA5B2004C2B2B /* FavoriteButton.swift in Sources */,
@@ -471,6 +684,45 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D9FDBD77287F69F700833F0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9FDBDAE287F6B6B00833F0E /* Landmark.swift in Sources */,
+				D9FDBD87287F69F800833F0E /* Persistence.swift in Sources */,
+				D9FDBDAD287F6B6B00833F0E /* Profile.swift in Sources */,
+				D9FDBDB4287F6B6B00833F0E /* MapView.swift in Sources */,
+				D9FDBDB7287F6B6B00833F0E /* LandmarkList.swift in Sources */,
+				D9FDBDAF287F6B6B00833F0E /* landmarksApp.swift in Sources */,
+				D9FDBDB9287F6D0B00833F0E /* LandmarkDetail.swift in Sources */,
+				D9FDBD80287F69F700833F0E /* ContentView.swift in Sources */,
+				D98B1998287FB8E9002840A9 /* LandmarkCommands.swift in Sources */,
+				D9FDBDB5287F6B6B00833F0E /* Hike.swift in Sources */,
+				D9FDBDB0287F6B6B00833F0E /* CircleImage.swift in Sources */,
+				D9FDBD8A287F69F800833F0E /* MacLandmarks.xcdatamodeld in Sources */,
+				D9FDBDB3287F6B6B00833F0E /* ModelData.swift in Sources */,
+				D9FDBDAC287F6B6B00833F0E /* LandmarkRow.swift in Sources */,
+				D9FDBDAB287F6B6B00833F0E /* FavoriteButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9FDBD8C287F69F800833F0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9FDBD95287F69F800833F0E /* MacLandmarksTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9FDBD96287F69F800833F0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9FDBDA1287F69F800833F0E /* MacLandmarksUITestsLaunchTests.swift in Sources */,
+				D9FDBD9F287F69F800833F0E /* MacLandmarksUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -483,6 +735,16 @@
 			isa = PBXTargetDependency;
 			target = D905D6AC287B56EB004C2B2B /* landmarks */;
 			targetProxy = D905D6CD287B56ED004C2B2B /* PBXContainerItemProxy */;
+		};
+		D9FDBD92287F69F800833F0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9FDBD7A287F69F700833F0E /* MacLandmarks */;
+			targetProxy = D9FDBD91287F69F800833F0E /* PBXContainerItemProxy */;
+		};
+		D9FDBD9C287F69F800833F0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9FDBD7A287F69F700833F0E /* MacLandmarks */;
+			targetProxy = D9FDBD9B287F69F800833F0E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -735,6 +997,142 @@
 			};
 			name = Release;
 		};
+		D9FDBDA3287F69F800833F0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MacLandmarks/MacLandmarks.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MacLandmarks/Preview Content\"";
+				DEVELOPMENT_TEAM = X95URU6FD9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alexspurlock.MacLandmarks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D9FDBDA4287F69F800833F0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MacLandmarks/MacLandmarks.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MacLandmarks/Preview Content\"";
+				DEVELOPMENT_TEAM = X95URU6FD9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alexspurlock.MacLandmarks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D9FDBDA6287F69F800833F0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X95URU6FD9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alexspurlock.MacLandmarksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacLandmarks.app/Contents/MacOS/MacLandmarks";
+			};
+			name = Debug;
+		};
+		D9FDBDA7287F69F800833F0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X95URU6FD9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alexspurlock.MacLandmarksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacLandmarks.app/Contents/MacOS/MacLandmarks";
+			};
+			name = Release;
+		};
+		D9FDBDA9287F69F800833F0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X95URU6FD9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alexspurlock.MacLandmarksUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MacLandmarks;
+			};
+			name = Debug;
+		};
+		D9FDBDAA287F69F800833F0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X95URU6FD9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alexspurlock.MacLandmarksUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MacLandmarks;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -774,6 +1172,33 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		D9FDBDA2287F69F800833F0E /* Build configuration list for PBXNativeTarget "MacLandmarks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9FDBDA3287F69F800833F0E /* Debug */,
+				D9FDBDA4287F69F800833F0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9FDBDA5287F69F800833F0E /* Build configuration list for PBXNativeTarget "MacLandmarksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9FDBDA6287F69F800833F0E /* Debug */,
+				D9FDBDA7287F69F800833F0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9FDBDA8287F69F800833F0E /* Build configuration list for PBXNativeTarget "MacLandmarksUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9FDBDA9287F69F800833F0E /* Debug */,
+				D9FDBDAA287F69F800833F0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
@@ -784,6 +1209,16 @@
 			);
 			currentVersion = D905D6BC287B56ED004C2B2B /* landmarks.xcdatamodel */;
 			path = landmarks.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		D9FDBD88287F69F800833F0E /* MacLandmarks.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D9FDBD89287F69F800833F0E /* MacLandmarks.xcdatamodel */,
+			);
+			currentVersion = D9FDBD89287F69F800833F0E /* MacLandmarks.xcdatamodel */;
+			path = MacLandmarks.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
